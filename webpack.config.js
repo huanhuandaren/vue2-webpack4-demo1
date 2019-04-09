@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const webpack=require('webpack');
 const { VueLoaderPlugin } = require('vue-loader');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const isDev=process.env.NODE_ENV;
+const isDev=process.env.NODE_ENV;//环境变量
 const config = {
 	target:'web',
 	entry: {
